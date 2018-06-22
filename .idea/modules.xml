@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Language.iml" filepath="$PROJECT_DIR$/Language.iml" />
+      <module fileurl="file://$PROJECT_DIR$/database/database.iml" filepath="$PROJECT_DIR$/database/database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interface/interface.iml" filepath="$PROJECT_DIR$/interface/interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/release/release.iml" filepath="$PROJECT_DIR$/release/release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/tasks.iml" filepath="$PROJECT_DIR$/tasks/tasks.iml" />
+    </modules>
+  </component>
+</project>
