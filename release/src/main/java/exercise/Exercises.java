@@ -13,7 +13,7 @@ import javafx.scene.layout.VBox;
  * @author Загороднев Д.М.
  * @version 2.0
  */
-public class FillingColumnsExercise implements ArgumentsExercise
+public class Exercises implements ArgumentsExercise
 {
     /** Левый столбец с предложениями */
     private Label[] arrayOfOffersLeft;
@@ -26,7 +26,7 @@ public class FillingColumnsExercise implements ArgumentsExercise
     /** Значение определяющее временную форму предложений (PS, To be,...) */
     private String m;
     /** Класс со списком значений */
-    private Exercise text = new Exercise();
+    private ExerciseText text = new ExerciseText();
 
     /**
      * Конструктор создающий новый объект с параметрами
@@ -36,8 +36,8 @@ public class FillingColumnsExercise implements ArgumentsExercise
      * @param CLOSE - конец столбца
      * @param m - временная форма (PS, To be...)
      */
-    public FillingColumnsExercise(Label[] arrayOfOffersLeft, Label[] arrayOfOffersRight,
-                                  int START, int CLOSE, String m) {
+    public Exercises(Label[] arrayOfOffersLeft, Label[] arrayOfOffersRight,
+                     int START, int CLOSE, String m) {
 
         this.arrayOfOffersLeft = arrayOfOffersLeft;
         this.arrayOfOffersRight = arrayOfOffersRight;
@@ -47,7 +47,7 @@ public class FillingColumnsExercise implements ArgumentsExercise
     }
 
     /**
-     * Метод определяющий язык колонок {@link FillingColumnsExercise#arrayOfOffersLeft#arrayOfOffersRight}
+     * Метод определяющий язык колонок {@link Exercises#arrayOfOffersLeft#arrayOfOffersRight}
      * @param leftRight - левая/правая колонка
      * @param ENRU - язык английский/русский
      */
@@ -68,7 +68,7 @@ public class FillingColumnsExercise implements ArgumentsExercise
     }
 
     /**
-     * Функция получения значений {@link Exercise}
+     * Функция получения значений {@link ExerciseText}
      * @param a - номер предложения
      * @param b - номер ячейки в которую будет помещено значение
      * @param lang - язык значения
@@ -94,8 +94,8 @@ public class FillingColumnsExercise implements ArgumentsExercise
     }
 
     /**
-     * Процедура заполнения колонок на выбранном языке {@link FillingColumnsExercise#getEnRu(String, String)}}
-     * @param list - поле со значением {@link FillingColumnsExercise#text}
+     * Процедура заполнения колонок на выбранном языке {@link Exercises#getEnRu(String, String)}}
+     * @param list - поле со значением {@link Exercises#text}
      * @param listCol - колонка в которую заполняются значения
      * @param coordinateX - положение колонки в приложении
      * @param START_CLOSE - номер значения с которого начинается колонка

@@ -3,7 +3,7 @@ package exam;
 import javafx.scene.layout.HBox;
 
 /**
- * Класс создающий таблицу {@link FillingColumnsExam#getExamList()} с параметрами
+ * Класс создающий таблицу {@link Exams#getExamList()} с параметрами
  * <>dateTime</>, <>numberText</>, <>originalText</>, <>mistakesText</>, <>numberPart</>
  */
 public class AddMistakesTable

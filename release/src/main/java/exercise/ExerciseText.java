@@ -4,12 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Класс со значениями для {@link FillingColumnsExercise#methodExercise(int, int, String)}
+ * Класс со значениями для {@link Exercises#methodExercise(int, int, String)}
  * Имеет свойства: <b>psFileEn</b>, <b>psFileRu</b>, <b>toBeFileEn</b>, <b>toBeFileRu</b>
  * @author Загороднев Д.М.
  * @version 2.0
  */
-public class Exercise
+public class ExerciseText
 {
     /** Значения времени PS, языка Английский */
     private Map<Integer, String> psFileEn = new HashMap<>();

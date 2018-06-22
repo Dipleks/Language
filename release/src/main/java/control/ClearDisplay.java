@@ -1,9 +1,9 @@
-import control.AddExerciseExam;
-import control.MenuBarEngRus;
-import exam.ArgumentsExam;
+package control;
+
+import interfaceRoot.ArgumentsExam;
 import interfaceRoot.ClockDisplay;
-import myWords_TTT.ArgumentsMyWords;
-import exercise.ArgumentsExercise;
+import interfaceRoot.ArgumentsMyWords;
+import interfaceRoot.ArgumentsExercise;
 
 public class ClearDisplay implements ArgumentsExam, ArgumentsExercise, ArgumentsMyWords
 {
@@ -68,8 +68,4 @@ public class ClearDisplay implements ArgumentsExam, ArgumentsExercise, Arguments
             addExerciseExam.AddMenuButtonExamToBe();
         }
     }
-
-
-
-
 }

@@ -1,9 +1,9 @@
 package control;
 
-import exam.ArgumentsExam;
-import exam.FillingColumnsExam;
-import exercise.ArgumentsExercise;
-import exercise.FillingColumnsExercise;
+import exam.Exams;
+import interfaceRoot.ArgumentsExam;
+import interfaceRoot.ArgumentsExercise;
+import exercise.Exercises;
 import interfaceRoot.*;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -30,7 +30,7 @@ class Control implements Root, ArgumentsExam, ArgumentsExercise
     private Label quesL = new Label();
     private Label examL = new Label();
 
-    void exercise(final FillingColumnsExercise[] app, final FillingColumnsExercise[] neg, final FillingColumnsExercise[] ques,
+    void exercise(final Exercises[] app, final Exercises[] neg, final Exercises[] ques,
                   final Button[] buttonApp, final Button[] buttonNeg, final Button[] buttonQues, String m)
     {
         methodAppNegQues();
@@ -158,7 +158,7 @@ class Control implements Root, ArgumentsExam, ArgumentsExercise
         lengthButtonQues.getChildren().addAll(buttonQues);
         ROOT.getChildren().addAll(lengthButtonQues);
     }
-    void examMethod(final FillingColumnsExam[] exam, final Button[] buttonExam, String m){
+    void examMethod(final Exams[] exam, final Button[] buttonExam, String m){
 
         this.examL.setText("Контрольные работы");
 //        quesL.setStyle("-fx-border-color: RED");

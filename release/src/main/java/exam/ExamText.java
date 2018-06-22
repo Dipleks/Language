@@ -4,12 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Класс со значениями для {@link FillingColumnsExam#methodExam(int, int, String)}
+ * Класс со значениями для {@link Exams#methodExam(int, int, String)}
  * Имеет свойства: <b>examEnPS</b>, <b>examRuPS</b>, <b>examEnToBe</b>, <b>examRuToBe</b>
  * @author Загороднев Д.М.
  * @version 2.0
  */
-public class Exam
+public class ExamText
 {
     /** Значения времени PS, языка Английский */
     private Map<Integer, String> examEnPS = new HashMap<>();

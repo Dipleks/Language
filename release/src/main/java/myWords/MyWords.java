@@ -1,11 +1,12 @@
-package myWords_TTT;
+package myWords;
 
+import control.ClearDisplay;
 import control.MenuBarEngRus;
 import db.TableDB;
-import ClearDisplay;
+import interfaceRoot.ArgumentsMyWords;
 import interfaceRoot.EffectColor;
 import interfaceRoot.EffectFont;
-import interfaceRoot.Root;
+import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -16,24 +17,63 @@ import javafx.stage.Stage;
 
 import java.sql.*;
 
-public interface ArgumentsMyWords extends Root
+public class MyWords implements ArgumentsMyWords
 {
-    // Menu_my_words
-    VBox leftC = new VBox();
-    VBox rightC = new VBox();
-    HBox groupMy = new HBox();
-    VBox addElement = new VBox();
-    HBox addTextAndButton = new HBox();
-    ScrollPane textMy = new ScrollPane();
-    TextField textEn = new TextField();
-    TextField textRu = new TextField();
-    TextField textSearch = new TextField();
-    Label[] my_word_en = new Label[500];
-    Label[] my_word_ru = new Label[500];
-    Button searchWords = new Button("Поиск");
-    Button addWords = new Button("Добавить");
+    // Добавление Базы данных, меню "Мои слова":
+    public void getMyWordsList(){
+        getMyWordsColumnLab();
+    }
+
+    private void getMyWordsColumnLab() {
+        // Обновление таблицы my_words:
+        restartMyWordsTable();
+
+        rightC.getChildren().addAll();
+        rightC.setSpacing(7);
+        rightC.setPrefWidth(widthSize - widthSize / 1.3);
+//        rightC.setStyle("-fx-border-color: RED");
+        leftC.getChildren().addAll();
+        leftC.setSpacing(7);
+        leftC.setPadding(new Insets(0, 30, 0, 0));
+        leftC.setPrefWidth(widthSize - widthSize / 1.3);
+//        leftC.setStyle("-fx-border-color: RED");
+        groupMy.setSpacing(20);
+        groupMy.getChildren().addAll(leftC, rightC);
+
+//        addElement.setStyle("-fx-border-color: RED");
+        addElement.setLayoutX(widthSize - widthSize / 1.25);
+        addElement.setLayoutY(heightSize - heightSize / 1.16);
+        addElement.setPrefSize(widthSize / 1.8, heightSize / 1.5);
+        addElement.setSpacing(10);
+
+        textMy.setStyle("-fx-background-color: transparent; -fx-background: #FFFFFF;");
+        textMy.setPrefSize(widthSize / 1.8, heightSize / 1.6);
+        textMy.setContent(groupMy);
+
+        textEn.setPrefWidth(widthSize - widthSize / 1.3);
+        textEn.setPromptText("English");
+        textRu.setPrefWidth(widthSize - widthSize / 1.3);
+        textRu.setPromptText("Русский");
+        addTextAndButton.setSpacing(20);
+        addTextAndButton.getChildren().addAll(textEn, textRu, addWords);
+
+        addElement.getChildren().addAll(addTextAndButton, textMy);
+
+        HBox hBox = new HBox();
+        textSearch.setPrefWidth(widthSize/3);
+
+        // Поиск меню my_words:
+        getSearch();
+
+        hBox.getChildren().addAll(textSearch, searchWords);
+        hBox.setSpacing(heightSize-heightSize/1.009);
+        hBox.setLayoutX(widthSize-widthSize/1.4);
+        hBox.setLayoutY(heightSize-heightSize/1.05);
+
+        ROOT.getChildren().addAll(addElement, hBox);
+    }
     // Поиск меню my_words:
-    default void getSearch(){
+    private void getSearch(){
         searchWords.setOnAction(e -> {
             if (textSearch.getText().equals("")){
                 textSearch.setPromptText("Введите букву или слово для поиска...");
@@ -99,7 +139,7 @@ public interface ArgumentsMyWords extends Root
         });
     }
     // Добавление новых слов меню my_words:
-    default void addNewWords(){
+    private void addNewWords(){
         addWords.setOnAction(e -> {
             if (!textEn.getText().equals("") & !textRu.getText().equals("")) {
                 try {
@@ -125,7 +165,7 @@ public interface ArgumentsMyWords extends Root
         });
     }
     // Обновление таблицы my_words:
-    default void restartMyWordsTable(){
+    private void restartMyWordsTable(){
         try {
             Class.forName("org.postgresql.Driver");
         } catch (ClassNotFoundException e) {
@@ -173,7 +213,7 @@ public interface ArgumentsMyWords extends Root
                         ClearDisplay.clearMethod();
                         MenuBarEngRus menuBarEngRus = new MenuBarEngRus();
                         menuBarEngRus.getMenu();
-                        FillingColumnsMyWords fillingColumns = new FillingColumnsMyWords();
+                        MyWords fillingColumns = new MyWords();
                         fillingColumns.getMyWordsList();
                     } catch (SQLException ex) {
                         ex.printStackTrace();

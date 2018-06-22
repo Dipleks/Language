@@ -14,7 +14,7 @@ import javafx.scene.text.FontPosture;
 import javafx.scene.text.FontWeight;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import myWords_TTT.FillingColumnsMyWords;
+import myWords.MyWords;
 import texts.TextLevelOne;
 
 public class MenuBarEngRus implements Root
@@ -75,7 +75,7 @@ public class MenuBarEngRus implements Root
                 ClearDisplay.clearMethod();
                 MenuBarEngRus menuBarEngRus = new MenuBarEngRus();
                 menuBarEngRus.getMenu();
-                FillingColumnsMyWords fillingColumns = new FillingColumnsMyWords();
+                MyWords fillingColumns = new MyWords();
                 fillingColumns.getMyWordsList();
             });
         } else {

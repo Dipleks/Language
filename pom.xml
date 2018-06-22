@@ -7,21 +7,20 @@
     <groupId>ru.inbox.gladiator9000</groupId>
     <artifactId>Language</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>ver.2.0.3</version>
 
 
     <modules>
         <module>database</module>
         <module>tasks</module>
         <module>release</module>
-        <module>myWords</module>
         <module>interface</module>
     </modules>
 
     <build>
         <plugins>
 
-            <!--Контроль версии проекта-->
+            <!--Контроль версии java-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
