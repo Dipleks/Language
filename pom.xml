@@ -18,6 +18,8 @@
 
     <build>
         <plugins>
+
+            <!--Контроль версии проекта-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -28,6 +30,8 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
+
+            <!--Подключение всех зависимостей-->
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
@@ -83,6 +87,7 @@
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+        <!--Подключения JDBC драйвера-->
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
