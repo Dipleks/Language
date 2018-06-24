@@ -14,7 +14,7 @@
         <module>database</module>
         <module>release</module>
         <module>interface</module>
-        <module>tr</module>
+        <module>task</module>
     </modules>
 
     <build>

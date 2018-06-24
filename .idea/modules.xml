@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/database/database.iml" filepath="$PROJECT_DIR$/database/database.iml" />
       <module fileurl="file://$PROJECT_DIR$/interface/interface.iml" filepath="$PROJECT_DIR$/interface/interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/release/release.iml" filepath="$PROJECT_DIR$/release/release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task/task.iml" filepath="$PROJECT_DIR$/task/task.iml" />
     </modules>
   </component>
 </project>
