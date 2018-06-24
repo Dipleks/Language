@@ -9,7 +9,6 @@
         <module name="database" />
         <module name="interface" />
         <module name="release" />
-        <module name="tasks" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

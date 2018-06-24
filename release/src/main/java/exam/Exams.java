@@ -28,12 +28,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.Locale;
 
-/**
- * Класс заполнения таблицы меню "Контрольные" со свойствами
- * <b>arrayOfOffersExam</b>, <b>number</b>, <b>correctly</b>, <b>START</b>, <b>m</b>, <b>exam</b>
- * @author Загороднев Д.М.
- * @version 2.0
- */
 public class Exams implements ArgumentsExam
 {
     /** Ячейки для значений таблицы */
