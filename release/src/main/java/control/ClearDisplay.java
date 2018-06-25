@@ -36,20 +36,4 @@ public class ClearDisplay implements ArgumentsExam, ArgumentsExercise, Arguments
         ROOT.getChildren().clear();
         ClockDisplay.clock();
     }
-    // Зачистка окна упражнений:
-    public static void methodClearExercise(String m) {
-        if (m.equals("AddMenuButtonPS")){
-            clearMethod();
-            MenuBarEngRus menuBarEngRus = new MenuBarEngRus();
-            menuBarEngRus.getMenu();
-            AddExerciseExam addExerciseExam = new AddExerciseExam();
-            addExerciseExam.AddMenuButtonPS();
-        } else if (m.equals("AddMenuButtonToBe")){
-            clearMethod();
-            MenuBarEngRus menuBarEngRus = new MenuBarEngRus();
-            menuBarEngRus.getMenu();
-            AddExerciseExam addExerciseExam = new AddExerciseExam();
-            addExerciseExam.AddMenuButtonToBe();
-        }
-    }
 }

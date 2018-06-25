@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="302250f6-aad6-4f4e-87d2-bb484d4ff64f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/release/src/main/java/control/ButtonsMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/src/main/java/exercise/ExercisePS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/src/main/java/exercise/ExerciseParts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/src/main/java/exercise/ExerciseToBe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/src/main/java/exercise/IExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/target/classes/db/CreateDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/target/classes/db/TableDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/target/classes/interfaceRoot/ArgumentsExam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/target/classes/interfaceRoot/ArgumentsExercise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/target/classes/interfaceRoot/ArgumentsMyWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/target/classes/interfaceRoot/ClockDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/target/classes/interfaceRoot/EffectColor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/target/classes/interfaceRoot/EffectFont.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/target/classes/interfaceRoot/Root.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/target/classes/interfaceRoot/SoundClick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/src/main/java/control/AddExerciseExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/release/src/main/java/control/AddExerciseExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/src/main/java/control/ClearDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/release/src/main/java/control/ClearDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/src/main/java/control/Control.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/src/main/java/exam/ExaminationParts.java" beforeDir="false" afterPath="$PROJECT_DIR$/release/src/main/java/exam/ExaminationParts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/src/main/java/exam/Exams.java" beforeDir="false" afterPath="$PROJECT_DIR$/release/src/main/java/exam/Exams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/src/main/java/exercise/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/release/src/main/java/exercise/Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/Language.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/control/AddExerciseExam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/control/ClearDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/control/Control.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/control/MenuBarEngRus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/exam/AddMistakesTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/exam/Counters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/exam/ExamPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/exam/ExamText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/exam/ExamTobe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/exam/ExaminationParts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/exam/Exams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/exam/IExam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/exam/LangExam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/exam/MergingPanels.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/exam/Numerations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/exam/PanelTips.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/exam/RecordErrorsExams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/exam/WorkCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/exercise/ExerciseText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/exercise/Exercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/myWords/MyWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/texts/TextLevelOne$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/texts/TextLevelOne$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/texts/TextLevelOne$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/target/classes/texts/TextLevelOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/main/java/exams/ExamText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/main/java/exams/Exams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/main/java/exams/WorkCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/main/java/exams/_AddMistakesTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/main/java/exams/_ConstructorExam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/main/java/exams/_IExam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/main/java/exams/presenSimple/_ExamPS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/main/java/exams/to_be/_ExamToBe.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/tasks/target/" />
+    <ignored path="$PROJECT_DIR$/database/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/release/target/" />
+    <ignored path="$PROJECT_DIR$/interface/target/" />
+    <ignored path="$PROJECT_DIR$/tr/target/" />
+    <ignored path="$PROJECT_DIR$/task/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Exercises.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/release/src/main/java/exercise/Exercises.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>this.</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/task/src/main/java/ExamText.java" />
+        <option value="$PROJECT_DIR$/task/src/main/java/exams/ExamText.java" />
+        <option value="$PROJECT_DIR$/task/src/main/java/exams/ClassControl.java" />
+        <option value="$PROJECT_DIR$/task/src/main/java/exams/IExam.java" />
+        <option value="$PROJECT_DIR$/task/src/main/java/exams/presenSimple/ExamPS.java" />
+        <option value="$PROJECT_DIR$/task/src/main/java/exams/AddExerciseExamDouble.java" />
+        <option value="$PROJECT_DIR$/task/src/main/java/exams/ConstructorExam.java" />
+        <option value="$PROJECT_DIR$/task/src/main/java/exams/to_be/ExamToBe.java" />
+        <option value="$PROJECT_DIR$/task/src/main/java/exams/_ConstructorExam.java" />
+        <option value="$PROJECT_DIR$/task/src/main/java/exams/presenSimple/_ExamPS.java" />
+        <option value="$PROJECT_DIR$/task/src/main/java/exams/to_be/_ExamToBe.java" />
+        <option value="$PROJECT_DIR$/task/src/main/java/exams/AddMistakesTable.java" />
+        <option value="$PROJECT_DIR$/task/src/main/java/exams/_AddMistakesTable.java" />
+        <option value="$PROJECT_DIR$/task/src/main/java/exams/WorkCounter.java" />
+        <option value="$PROJECT_DIR$/task/src/main/java/exams/Exams.java" />
+        <option value="$PROJECT_DIR$/task/src/main/java/exams/_IExam.java" />
+        <option value="$PROJECT_DIR$/release/pom.xml" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/WorkCounter.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/Cuonter.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/Cuonters.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/CuonterStatistic.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/Counters.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/LangExam.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/ConstruktorExams.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/presentSimple/ExamPS.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/to_be/ExamTobe.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/Numberation.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/Numerations.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/PanelTips.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/MergingPanels.java" />
+        <option value="$PROJECT_DIR$/database/src/main/java/db/RecordErrorsExams.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/RecordErrorsExams.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/ExamTobe.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/ExamPS.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/IExam.java" />
+        <option value="$PROJECT_DIR$/interface/src/main/java/interfaceRoot/Root.java" />
+        <option value="$PROJECT_DIR$/interface/src/main/java/interfaceRoot/ArgumentsExam.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/control/Control.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/control/ExerciseParts.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/control/ClearDisplay.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/control/ButtonsMenuExams.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/ExaminationParts.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exam/Exams.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exercise/IExercises.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exercise/ExercisePS.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exercise/ExerciseToBe.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/control/ButtonsMenu.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exercise/ExerciseParts.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/control/AddExerciseExam.java" />
+        <option value="$PROJECT_DIR$/release/src/main/java/exercise/Exercises.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Language" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Language" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="26" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaceRoot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/release/src/main/java/exam" />
+      <recent name="$PROJECT_DIR$/tasks/src/main/java/exam" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exams" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tasks/src/main/java/exam" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Language">
+    <configuration name="AddExerciseExamDouble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exams.AddExerciseExamDouble" />
+      <module name="task" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Exams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exams.Exams" />
+      <module name="task" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Language" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Language" />
+      <module name="release" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="release-ver.2.0.3-jar-with-dependencies.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/release/target/release-ver.2.0.3-jar-with-dependencies.jar" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Language" />
+      <item itemvalue="JAR Application.release-ver.2.0.3-jar-with-dependencies.jar" />
+      <item itemvalue="Application.Exams" />
+      <item itemvalue="Application.AddExerciseExamDouble" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Language" />
+        <item itemvalue="Application.AddExerciseExamDouble" />
+        <item itemvalue="Application.Exams" />
+        <item itemvalue="JAR Application.release-ver.2.0.3-jar-with-dependencies.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="302250f6-aad6-4f4e-87d2-bb484d4ff64f" name="Default" comment="" />
+      <created>1529687942476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529687942476</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="-8" width="1394" height="916" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32936507" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053364" side_tool="true" weight="0.24944568" />
+      <window_info anchor="right" x="0" y="0" width="298" height="716" id="Documentation" sideWeight="0.50176054" side_tool="true" weight="0.1221889" />
+      <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.49823943" visible="true" weight="0.1221889" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" weight="0.24867725" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21964018" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32804233" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/Exams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+          <folding>
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/main/java/exams/presenSimple/_ExamPS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/main/java/exams/to_be/_ExamToBe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/main/java/exams/_IExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/main/java/exams/Exams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/Language.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/Language.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/Language.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/Language.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/Op.java" />
+    <entry file="file://$PROJECT_DIR$/database/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/main/java/interfaceRoot/ArgumentsMyWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/main/java/interfaceRoot/ClockDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/main/java/interfaceRoot/ArgumentsExercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/main/java/exams/AddExerciseExamDouble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/main/java/exams/to_be/_ExamToBe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="105" selection-start-line="15" selection-start-column="105" selection-end-line="15" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/main/java/exams/ExamText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="method#getStrEnPS#0;class#ExamText#0" />
+            <element signature="method#getStrRuPS#0;class#ExamText#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/main/java/exams/WorkCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/main/java/exams/_AddMistakesTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/main/java/exams/_IExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/main/java/exams/presenSimple/_ExamPS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="8" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/main/java/exams/Exams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/CuonterStatistic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/LangExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/WorkCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/main/java/exams/_ConstructorExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/control/MenuBarEngRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/ConstruktorExams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/Counters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="189" column="5" selection-start-line="189" selection-start-column="5" selection-end-line="189" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/Numerations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/RecordErrorsExams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/MergingPanels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/PanelTips.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/AddMistakesTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/main/java/interfaceRoot/Root.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/main/java/interfaceRoot/ArgumentsExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/ExamTobe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/IExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/ExamPS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/control/ClearDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/ExaminationParts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exam/Exams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exercise/IExercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exercise/ExercisePS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exercise/ExerciseToBe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/control/AddExerciseExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1171">
+          <caret line="148" column="73" selection-start-line="148" selection-start-column="73" selection-end-line="148" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exercise/ExerciseParts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="81" column="62" selection-start-line="81" selection-start-column="62" selection-end-line="81" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/control/ButtonsMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="136" column="65" selection-start-line="136" selection-start-column="65" selection-end-line="136" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1183#1184#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/exercise/Exercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>database</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.postgresql:postgresql:42.2.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

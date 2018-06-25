@@ -14,7 +14,6 @@ public class Exams implements ArgumentsExam
     private int START;
 
     public Exams(int START) {
-
         this.START = START;
     }
 
