@@ -1,6 +1,7 @@
 package control;
 
 import exam.Exams;
+import exam.IExam;
 import interfaceRoot.ArgumentsExam;
 import interfaceRoot.ArgumentsExercise;
 import exercise.Exercises;
@@ -158,7 +159,7 @@ class Control implements Root, ArgumentsExam, ArgumentsExercise
         lengthButtonQues.getChildren().addAll(buttonQues);
         ROOT.getChildren().addAll(lengthButtonQues);
     }
-    void examMethod(final Exams[] exam, final Button[] buttonExam, String m){
+    void examMethod(final Exams[] exam, final Button[] buttonExam, IExam iExam){
 
         this.examL.setText("Контрольные работы");
 //        quesL.setStyle("-fx-border-color: RED");
@@ -189,8 +190,8 @@ class Control implements Root, ArgumentsExam, ArgumentsExercise
                 groupRadBut.setLayoutX(widthSize-widthSize/2.8);
                 groupRadBut.setLayoutY(heightSize-heightSize/1.09);
                 ROOT.getChildren().addAll(groupRadBut);
-                exitInMenu.setOnAction(e -> ClearDisplay.methodClearExam(m));
-                exam[finalI].getExamList();
+                exitInMenu.setOnAction(e -> iExam.clearExams());
+                exam[finalI].getExamList(iExam);
                 ROOT.getChildren().remove(lengthButtonExam);
                 ROOT.getChildren().removeAll(this.examL);
                 lengthButtonExam.getChildren().removeAll(buttonExam);

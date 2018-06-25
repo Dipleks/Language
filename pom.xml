@@ -12,9 +12,9 @@
 
     <modules>
         <module>database</module>
-        <module>tasks</module>
         <module>release</module>
         <module>interface</module>
+        <module>task</module>
     </modules>
 
     <build>

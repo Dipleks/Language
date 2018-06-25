@@ -52,20 +52,4 @@ public class ClearDisplay implements ArgumentsExam, ArgumentsExercise, Arguments
             addExerciseExam.AddMenuButtonToBe();
         }
     }
-    // Зачистка окна контрольных:
-    public static void methodClearExam(String m) {
-        if (m.equals("AddMenuButtonExamPS")){
-            clearMethod();
-            MenuBarEngRus menuBarEngRus = new MenuBarEngRus();
-            menuBarEngRus.getMenu();
-            AddExerciseExam addExerciseExam = new AddExerciseExam();
-            addExerciseExam.AddMenuButtonExamPS();
-        } else if (m.equals("AddMenuButtonExamToBe")){
-            clearMethod();
-            MenuBarEngRus menuBarEngRus = new MenuBarEngRus();
-            menuBarEngRus.getMenu();
-            AddExerciseExam addExerciseExam = new AddExerciseExam();
-            addExerciseExam.AddMenuButtonExamToBe();
-        }
-    }
 }

@@ -85,7 +85,7 @@ public class AddMistakesTable
      */
     @Override
     public String toString() {
-        return "AddMistakesTable{" +
+        return "_AddMistakesTable{" +
                 "dateTime='" + dateTime + '\'' +
                 ", numberText='" + numberText + '\'' +
                 ", originalText='" + originalText + '\'' +

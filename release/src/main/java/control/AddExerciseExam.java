@@ -1,6 +1,9 @@
 package control;
 
+import exam.ExaminationParts;
 import exam.Exams;
+import exam.ExamPS;
+import exam.ExamTobe;
 import exercise.Exercises;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -77,6 +80,7 @@ public class AddExerciseExam
         getExamToBe();
     }
 
+
     /**
      * Процедура добавления кнопок и вызова по клику упражнений PS
      */
@@ -110,17 +114,18 @@ public class AddExerciseExam
     /**
      * Процедура добавления кнопок и вызова по клику контрольных PS
      */
+
     private void getExamPS(){
 
-        examPS[0] = new Exams(new Label[100], new Label[100], new Label[100],  0, "ExamPS");
-        examPS[1] = new Exams(new Label[100], new Label[100], new Label[100],  100, "ExamPS");
-        examPS[2] = new Exams(new Label[100], new Label[100], new Label[100],  200, "ExamPS");
-        examPS[3] = new Exams(new Label[100], new Label[100], new Label[100],  300, "ExamPS");
-        examPS[4] = new Exams(new Label[100], new Label[100], new Label[100],  400, "ExamPS");
-        examPS[5] = new Exams(new Label[100], new Label[100], new Label[100],  500, "ExamPS");
-        examPS[6] = new Exams(new Label[100], new Label[100], new Label[100],  600, "ExamPS");
+        examPS[0] = new Exams(0);
+        examPS[1] = new Exams(100);
+        examPS[2] = new Exams(200);
+        examPS[3] = new Exams(300);
+        examPS[4] = new Exams(400);
+        examPS[5] = new Exams(500);
+        examPS[6] = new Exams(600);
 
-        controlExamPS.examMethod(examPS,new Button[7], "AddMenuButtonExamPS");
+        controlExamPS.examMethod(examPS, new Button[7], new ExamPS());
     }
 
     /**
@@ -157,10 +162,10 @@ public class AddExerciseExam
      */
     private void getExamToBe(){
 
-        examToBe[0] = new Exams(new Label[100], new Label[100], new Label[100],  0, "ExamToBe");
+        examToBe[0] = new Exams(0);
 //        examToBe[1] = new Exams(new Label[100], new Label[100], new Label[100],  100);
 
-        controlExamToBe.examMethod(examToBe,new Button[1], "AddMenuButtonExamToBe");
+        controlExamToBe.examMethod(examToBe,new Button[1], new ExamTobe());
     }
 
 

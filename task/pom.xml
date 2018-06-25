@@ -9,14 +9,21 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tasks</artifactId>
-
+    <artifactId>task</artifactId>
     <dependencies>
         <dependency>
             <groupId>ru.inbox.gladiator9000</groupId>
-            <artifactId>release</artifactId>
+            <artifactId>interface</artifactId>
             <version>ver.2.0.3</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>ru.inbox.gladiator9000</groupId>
+            <artifactId>database</artifactId>
+            <version>ver.2.0.3</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
+
 
 </project>

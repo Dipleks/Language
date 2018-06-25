@@ -24,4 +24,5 @@ public interface ArgumentsExam extends Root
     VBox columnExam = new VBox();
     HBox groupExam = new HBox();
     Button exitInMenu = new Button("В меню");
+
 }
